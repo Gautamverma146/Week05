@@ -14,8 +14,8 @@ import static java.lang.System.out;
 
 public class StudentMain {
     //method to print students
-    private static void printStudents(List<Student> studentList) {
-        for(Student student : studentList){
+    private static void printStudents(List<com.tit.day01.advanced_problems.csv_data_to_java_objects.Student> studentList) {
+        for(com.tit.day01.advanced_problems.csv_data_to_java_objects.Student student : studentList){
             out.println(student.getId() + " " + student.getName() + " " + student.getAge() + " " + student.getMarks());
         }
     }
